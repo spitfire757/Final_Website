@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type='text/css' href='style_selector.css'>
+	<script src="source_2.js"></script>
+	<script src="source.js"></script>
+	<div class="bg"></div>
+</head>
+<body>
+	<header>
+		<h1>My Website</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="#page1">Summary</a></li>
+			<li><a href="#page2">Decision</a></li>
+			<li><a href="#Sources">Sources</a></li> 
+		</ul>
+	</nav>
+
+	<main>
+		<section id="home">
+			<h2>Welcome to my website -- Where I discuss everything about the movie, "The Matrix"</h2>
+			<p class='cont'>Welcome to our Matrix website, where we explore the fascinating world of the Matrix. Here you will find information about the movies, the characters, the philosophy behind the story, and much more. Join us as we delve deeper into the rabbit hole and discover the truth about the Matrix.
+			</p>
+		</section>
+
+		<section id="about">
+		  <h2>Symbolism -- The Matrix</h2>
+			  <table>
+			    <thead>
+			      <tr>
+			        <th class="item-title">Item</th>
+			        <th class='summary-title'>Summary</th>
+			        <th class='image-title'>Image</th>
+			      </tr>
+			    </thead>
+			    <tbody>
+			      <tr>
+			        <td class='item'>Blue Pill</td>
+			        <td class='summary'>The Blue Pill is the a way to continue living in a peaceful bliss, oblivious to the reality you are in. It represents ignorance and temptation as you could live in your dream, but that is all it would be, a dream. The blue pill represents ignorance and the comfort of living in illusion. It represents the choice to remain in the Matrix and continue living life as it has been programmed for you. By taking the blue pill, the person will continue to believe in the fabricated reality of the Matrix and remain blissfully unaware of the true nature of their existence.</td>
+			        <td class='image'><img src="image_dir/option1-image.png" alt="Blue Pill Image"></td>
+			      </tr>
+			      <tr>
+			        <td class='item'>Red Pill</td>
+			        <td class='summary'>The red pill is a metaphorical symbol that represents the truth, no matter how unpleasant or difficult it may be. Taking the red pill means waking up from the comfortable illusions of the Matrix and becoming aware of the harsh reality of the dystopian future ruled by machines, where humans are enslaved and kept in a perpetual dream-like state. It is a choice to embrace the truth, face the challenges, and fight for freedom against the oppressive system. Taking the red pill is an irreversible decision that fundamentally changes one's perception of the world and leads to a life of struggle and sacrifice, but also opens up the possibility of a meaningful and authentic existence</td>
+			        <td class='image'><img src="image_dir/option2-image.jpeg" alt="Red Pill"></td>
+			      </tr>
+			      <tr>
+			        <td class='item'>The Agents</td>
+			        <td class='summary'>In the Matrix, the agents are symbolic of control, power, and domination. They are the primary enforcers of the Matrix system, tasked with hunting down and eliminating any humans who threaten to expose or challenge the illusion of the Matrix. Their unyielding pursuit of Neo and the other rebels represents the oppressive nature of the system, and the difficulty of breaking free from established power structures.Similarly, in the SCP Foundation, the role of agents is to contain and control anomalous entities that pose a threat to the established order. SCP agents are typically portrayed as highly trained and disciplined, with a strict adherence to protocol and a willingness to use deadly force when necessary. They are tasked with containing and studying dangerous objects and creatures, and their efforts are often portrayed as a necessary evil in the face of an unpredictable and hostile world. This along with other examples in analog horror, of doing the necessary evil or forcing others to live out another reality is becoming a common trope now in science fiction thanks to the matrix.</td>
+			        <td class='image'><img src="image_dir/option3-image.jpg" alt="Red Pill"></td>
+			      </tr>
+			    </tbody>
+			  </table>
+		</section>
+		
+		<section id="page1">
+			<h2>Summary -- The Matrix</h2>
+			<p>Here is a quick summary that you can download at your leisure</p>
+				<embed src="Matrix_sum.pdf" type="application/pdf" width="60%" height="550px"/>
+		</section>
+		
+		<section id="page2">
+			<h2>Its time to decide</h2>
+			<p>"<em>This is your last chance. After this, there is no turning back. You take the blue pill—the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill—you stay in Wonderland, and I show you how deep the rabbit hole goes. Remember: all I'm offering is the truth. Nothing more.</em>"
+										-- Morpheus</p>
+			<button onclick="freeYourMind()">Red Pill</button> 
+			<button onclick="location.href='button.html'">Blue Pill</button>
+			</div>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>Name  : Brendan Cummings Kelley</p>
+			<p>Phone : (804) - 912 - 4116<p>
+			<p>Email : brendan.kelley.21@cnu.edu<p>  
+		</section>
+
+		<section id="Sources">
+			<h2>Picture/Image Sources</h2>
+			<a href="https://news.emory.edu/features/2021/11/molnupiravir_experts_weigh_in_treatment_covid_19-11-2021/index.html">Red Pill</a>
+			<a href ="https://incels.wiki/images/thumb/b/bb/Bluepill.png/300px-Bluepill.png">Blue Pill</a>
+			<a href="https://upload.wikimedia.org/wikipedia/en/4/4b/Matrix_Agents.jpg">Agents</a>
+			
+		</section>
+	</main>
+</body>
+<footer>
+	Source Material for Matrix Flow - <a href="https://github.com/servetgulnaroglu/ytb_matrix_js">Source</a>
+</footer>
+</html>
